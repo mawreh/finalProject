@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>TrackOrder</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-$END$
+    <header>
+        <div><a href="Home.html" class="Home">Home</a></div>
+        <div><a href="StaffVeiw.html" class="StaffVeiw">Management</a></div>
+        <div><a href="BrowseMenu.html" class="BrowseMenu">Browse</a></div>
+        <div><a href="Login.html" class="Login">Log-in</a></div>
+        <div><a href="SignUp.html" class="Sign-Up">Sign-up</a></div>
+        <div><a href="Track.html" class="Track">Track Order</a></div>
+        <form>
+            <input type="text" class="search" id="search" name="search" placeholder="Search..">
+            <button type="submit" class="search-icon">Search</button>
+        </form>
+    </header>
+    <main class="Main">
+        <h3>Order Tracking</h3>
+        <form>
+            <label for="TrackingNumber">Please enter your tracking number:</label>
+            <input type="text" name="TrackingNumber" id="TrackingNumber"><br>
+            <br>
+            <button>Track</button>
+        </form>
+    </main>
 </body>
 </html>

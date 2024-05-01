@@ -1,0 +1,70 @@
+.Home{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    height: 60px;
+    width: 60px;
+    color: grey;
+    text-decoration: none;
+}
+
+.StaffVeiw{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+.Sign-Up{
+    position: absolute;
+    top: 5px;
+    right: 110px;
+    color: grey;
+    text-decoration: none;
+}
+
+.Login{
+    position: absolute;
+    top: 5px;
+    right: 180px;
+    color: grey;
+    text-decoration: none;
+}
+
+.BrowseMenu{
+    position: absolute;
+    top: 5px;
+    right: 240px;
+    color: grey;
+    text-decoration: none;
+}
+
+.search{
+    position: absolute;
+    top: 5px;
+    right: 380px;
+}
+
+.search-icon{
+    position: absolute;
+    top: 5px;
+    right: 325px;
+}
+
+.Main{
+    padding-top: 5rem;
+    display: block;
+    align-self: center;
+    max-width: 100ch;
+    margin: auto;
+}
+
+.Track{
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    color: grey;
+    text-decoration: none;
+}
+

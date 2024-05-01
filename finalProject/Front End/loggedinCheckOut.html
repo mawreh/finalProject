@@ -1,10 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Check-Out</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-$END$
+    <header>
+        <div><a href="Home.html" class="Home">Home</a></div>
+        <div><a href="StaffVeiw.html" class="StaffVeiw">Management</a></div>
+        <div><a href="BrowseMenu.html" class="BrowseMenu">Browse</a></div>
+        <div><a href="Login.html" class="Login">Log-in</a></div>
+        <div><a href="SignUp.html" class="Sign-Up">Sign-up</a></div>
+        <div><a href="Track.html" class="Track">Track Order</a></div>
+        <form>
+            <input type="text" class="search" id="search" name="search" placeholder="Search..">
+            <button type="submit" class="search-icon">Search</button>
+        </form>
+    </header>
+    <main class="Main">
+        <h3>Amount Due: $5</h3>
+        <form>
+            <label for="Payment-Method">Select Payment Method: </label>
+            <select name="Payment-Method" id="Payment-Method">
+                <option value="">Select</option>
+                <option value="Debit">Debit</option>
+                <option value="Visa">Visa</option>
+                <option value="Master-card">Master-card</option>
+                <option value="Cash">Cash</option>
+                <option value="Other">Other</option>
+            </select><br>
+            <br>
+            <label for="Order-Method">Select Order Method: </label>
+            <select name="Order-Method" id="Order-Method">
+                <option value="">Select</option>
+                <option value="Take-out">Take-out</option>
+                <option value="Delivery">Delivery</option>
+            </select><br>
+            <br>
+            <label for="Promotion">Promotional Code: </label>
+            <input type="text" id="Promotion" name="Promotion" placeholder="enter promotional code."><br>
+            <br>
+            <button><a href="LoggedinOrderInfo.html">Submit</a></button>
+        </form>
+    </main>
 </body>
 </html>

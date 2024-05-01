@@ -18,7 +18,7 @@ class CustomerUpdate(CustomerBase):
     customer_name: Optional[str] = None
     customer_email: Optional[str] = None
     customer_address: Optional[str] = None
-    customer_phone = Optional[str] = None
+    customer_phone: Optional[str] = None
 
 class Customer(CustomerBase):
     id: int
