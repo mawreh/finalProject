@@ -43,13 +43,13 @@
 .search{
     position: absolute;
     top: 5px;
-    right: 380px;
+    right: 580px;
 }
 
 .search-icon{
     position: absolute;
     top: 5px;
-    right: 325px;
+    right: 525px;
 }
 
 .Main{
@@ -68,3 +68,31 @@
     text-decoration: none;
 }
 
+.StaffMenu{
+    position: absolute;
+    top: 5px;
+    right: 290px;
+    color: grey;
+    text-decoration: none;
+}
+
+.Orders{
+     position: absolute;
+    top: 5px;
+    right: 120px;
+    color: grey;
+    text-decoration: none;
+}
+
+.Promotions{
+    position: absolute;
+    top: 5px;
+    right: 190px;
+    color: grey;
+    text-decoration: none;
+}
+
+button * {
+    color: black;
+    text-decoration: none;
+}

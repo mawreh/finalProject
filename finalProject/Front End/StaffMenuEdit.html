@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>ItemEdit</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-$END$
+    <header>
+        <div><a href="Home.html" class="Home">Home</a></div>
+        <div><a href="StaffVeiw.html" class="StaffVeiw">Management</a></div>
+        <div><a href="StaffMenu.html" class="StaffMenu">Menu Management</a></div>
+        <div><a href="Orders.html" class="Orders">Orders</a></div>
+        <div><a href="Promotions.html" class="Promotions">Promotions</a></div>
+        <form>
+            <input type="text" class="search" id="search" name="search" placeholder="Search..">
+            <button type="submit" class="search-icon">Search</button>
+        </form>
+    </header>
+    <main class="Main">
+        <h3>Edit Menu Item:</h3>
+        <form>
+            <label for="dish-name">Name: </label>
+            <input type="text" id="dish-name" name="dish-name" placeholder="enter dish-name"><br>
+            <br>
+            <label for="ingredients">Ingredients: </label>
+            <input type="text" id="ingredients" name="ingredients" placeholder="enter ingredients"><br>
+            <br>
+            <label for="price">Price: </label>
+            <input type="number" id="price" name="price" placeholder="enter price"><br>
+            <br>
+            <label for="calories">Calories: </label>
+            <input type="number" id="calories" name="calories" placeholder="enter number of calories"><br>
+            <br>
+            <label for="food-category">Food-Category:</label>
+            <input type="text" id="food-category" name="food-category" placeholder="enter category of food"><br>
+            <br>
+            <button><a href="StaffMenuWithNewEdit.html">Submit</a></button>
+        </form>
+    </main>
 </body>
 </html>

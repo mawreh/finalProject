@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Orders</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-
+    <header>
+        <div><a href="Home.html" class="Home">Home</a></div>
+        <div><a href="StaffVeiw.html" class="StaffVeiw">Management</a></div>
+        <div><a href="StaffMenu.html" class="StaffMenu">Menu Management</a></div>
+        <div><a href="Orders.html" class="Orders">Orders</a></div>
+        <div><a href="Promotions.html" class="Promotions">Promotions</a></div>
+        <form>
+            <input type="text" class="search" id="search" name="search" placeholder="Search..">
+            <button type="submit" class="search-icon"><a href="OrderSearch.html">Search</a></button>
+        </form>
+    </header>
+    <main class="Main">
+        <h1>Menu</h1>
+        <div class="menu-item">
+            <h3>Order</h3>
+            <p>Status: Complete</p>
+            <p>Total Price: $5</p>
+            <p>Date: 2024-05-01</p>
+            <button><a href="OrderDetails.html">Details</a></button>
+        </div>
+        <div class="menu-item">
+            <h3>Order</h3>
+            <p>Status: Pending</p>
+            <p>Total Price: $6</p>
+            <p>Date: 2024-05-02</p>
+            <button><a href="OrderDetails.html">Details</a></button>
+        </div>
+        <div class="menu-item">
+            <h3>Order</h3>
+            <p>Status: Pending</p>
+            <p>Total Price: $5</p>
+            <p>Date: 2024-05-02</p>
+            <button><a href="OrderDetails.html">Details</a></button>
+        </div>
+    </main>
 </body>
 </html>

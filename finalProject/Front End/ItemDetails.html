@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Details</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-$END$
+  <header>
+        <div><a href="Home.html" class="Home">Home</a></div>
+        <div><a href="StaffVeiw.html" class="StaffVeiw">Management</a></div>
+        <div><a href="StaffMenu.html" class="StaffMenu">Menu Management</a></div>
+        <div><a href="Orders.html" class="Orders">Orders</a></div>
+        <div><a href="Promotions.html" class="Promotions">Promotions</a></div>
+        <form>
+            <input type="text" class="search" id="search" name="search" placeholder="Search..">
+            <button type="submit" class="search-icon">Search</button>
+        </form>
+    </header>
+    <main class="Main">
+        <h1>Menu</h1>
+        <div class="menu-item">
+            <h2>Impossible-Burger</h2>
+            <p>Ingredients: Bread,lettuce,Tomato,Impossible-Patty,Pickles</p>
+            <p>Price: $10</p>
+            <p>Calories: 230</p>
+            <p>Category: Vegan</p>
+            <button><a href="StaffMenuEdit.html">Edit</a></button>
+            <button><a href="StaffMenu.html">Delete</a></button>
+        </div>
+    </main>
 </body>
 </html>
